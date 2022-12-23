@@ -1,0 +1,15 @@
+// $black: #313131 !default;
+// $darky: #444444 !default;
+// $gray-1: #f6f6f6 !default;
+// $gray-2: #e8e8e8 !default;
+// $gray-3: #c0c0c0 !default;
+// $second-text: #5c5c5c !default;
+// $light-grey: #f2f2f2 !default;
+
+:root {
+    --color-red: red;
+}
+
+@function color($color) {
+    @return var(--color-#{$color})
+}

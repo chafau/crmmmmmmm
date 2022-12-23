@@ -1,0 +1,36 @@
+@import "./utilities/colors";
+@import "./utilities/font";
+@import "./utilities/function";
+@import "./utilities/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-secondary) !important;
+    // font-size: 12px !important;
+}
+
+html {
+    background-color: #f4f6fd !important;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fafafa !important;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+textarea {
+    white-space: pre-line;
+}

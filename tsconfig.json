@@ -21,7 +21,16 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      // "@app-configs/*": ["src/app/configs/*"],
+      // "@app-redux/*": ["src/app/redux/*"],
+      // "@app-widgets/*": ["src/app/widgets/*"],
+      "@app-shared/*": ["src/app/shared/*"],
+      "@app-views/*": ["src/app/views/*"],
+      "@app-assets/*": ["src/assets/*"],
+      "@app-main/*": ["src/app/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
